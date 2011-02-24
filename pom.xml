@@ -1,0 +1,17 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app_grails</groupId>
+  <artifactId>app_grails</artifactId>
+  <packaging>war</packaging>
+  <version>0.1.2</version>
+  <name>app_grails</name>
+
+<distributionManagement>
+        <repository>
+            <id>bambooDeploy</id>
+            <name>Nexus Staging Repo</name>
+            <url>dav:http://git.ml.com:8081/nexus/content/repositories/bambooDeploy/</url>
+        </repository>
+    </distributionManagement>
+
+</project>
