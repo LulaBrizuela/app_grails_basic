@@ -10,7 +10,7 @@
         <repository>
             <id>bambooDeploy</id>
             <name>Nexus Staging Repo</name>
-            <url>dav:http://git.ml.com:8081/nexus/content/repositories/bambooDeploy/</url>
+            <url>http://git.ml.com:8081/nexus/content/repositories/bambooDeploy/</url>
         </repository>
     </distributionManagement>
 
