@@ -3,14 +3,14 @@
   <groupId>app_grails_basic</groupId>
   <artifactId>app_grails_basic</artifactId>
   <packaging>war</packaging>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <name>app_grails_basic</name>
 
 <distributionManagement>
         <repository>
             <id>bambooDeploy</id>
             <name>Nexus Staging Repo</name>
-            <url>dav:http://git.ml.com:8081/nexus/content/repositories/bambooDeploy/</url>
+            <url>http://git.ml.com:8081/nexus/content/repositories/bambooDeploy/</url>
         </repository>
     </distributionManagement>
 
